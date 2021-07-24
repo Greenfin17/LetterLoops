@@ -6,7 +6,7 @@ namespace LetterLoops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter your string:");
             string line = Console.ReadLine();
             line = line.ToLower().Trim();
             string outputStr = String.Empty;
